@@ -18,6 +18,6 @@ public class LogService implements TaskObserver {
 
     @Override
     public void controllerRequested(String name) {
-        logRepository.add(name + "requested");
+        logRepository.add(name + " requested");
     }
 }
